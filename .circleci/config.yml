@@ -17,7 +17,7 @@ jobs:
           name: Push Docker Image
           command: |
             echo "$DOCKERHUB_PASS" | docker login -u "$DOCKERHUB_USERNAME" 
---password-stdin
+--password-stdin:
             docker push $IMAGE_NAME:latest
 workflows:
   version: 2

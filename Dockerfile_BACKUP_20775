@@ -1,0 +1,7 @@
+FROM nginx:1.21
+
+COPY index.html /usr/share/nginx/html/index.html
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7f8eccfcf57177e83137bda6d4a63baac71a70be
